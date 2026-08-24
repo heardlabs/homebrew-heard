@@ -12,8 +12,7 @@ cask "heard" do
   version "1.2.30"
   sha256 "0f153ed1f93d6fad378c7f9c89b2804abb6bd15cbf6aea0ec24c43cf75e33e03"
 
-  url "https://github.com/heardlabs/heard/releases/download/v#{version}/Heard-v#{version}.dmg",
-      verified: "github.com/heardlabs/heard/"
+  url "https://github.com/heardlabs/heard/releases/download/v#{version}/Heard-v#{version}.dmg"
   name "Heard"
   desc "Voice layer for your AI coding agents"
   homepage "https://heard.dev/"
