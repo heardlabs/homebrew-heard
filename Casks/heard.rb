@@ -9,8 +9,8 @@
 # Until it lands in core, this same file also installs from a tap:
 #   brew install --cask <this-file>   (or via a heardlabs/homebrew-heard tap).
 cask "heard" do
-  version "2.0.4"
-  sha256 "b5cb1a641eb702d9f2181b4c7fa1ef5f7e52611018994698a1019c87629fda11"
+  version "2.0.5"
+  sha256 "d02c814ea043fe69f53490ec74da8b618b1c4e5a1d450e92644d006f49792f56"
 
   url "https://github.com/heardlabs/heard/releases/download/v#{version}/Heard-v#{version}.dmg"
   name "Heard"
