@@ -8,6 +8,12 @@ brew install --cask heardlabs/heard/heard
 
 That downloads the notarized app and installs it to `/Applications`, no drag-and-drop.
 
+On Homebrew 7 or later, if a later `brew` command says it is "refusing to load cask heardlabs/heard/heard from untrusted tap", trust the tap once:
+
+```sh
+brew trust heardlabs/heard
+```
+
 Heard updates itself, so `brew upgrade` stays out of its way. To remove it completely:
 
 ```sh
